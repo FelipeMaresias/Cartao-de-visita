@@ -154,7 +154,7 @@ a{
         color: white;
     }
 }
-@media screen and (max-width:200px){
+@media screen and (max-width:400px){
     .card{
         height: 330px;
         width: 300px;
@@ -227,7 +227,7 @@ a{
         margin: 13px;
     }
     .whatsapp{
-        top: 410px;
+        top: 480px;
         font-size: 19px;
         height: 35x;
         display:grid;
