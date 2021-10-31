@@ -1,0 +1,158 @@
+body{
+    background-color:black;
+}
+.drink{
+    position: relative;
+    bottom:450px;
+    font-size: 30px;
+    color:white;
+    background-image: url(./imagens/bebidas.png);
+    background-repeat: no-repeat;
+    padding-left: 38px;
+    margin: 10px;
+}
+.narguile{
+    position: relative;
+    bottom: 450px;
+    background-repeat: no-repeat;
+    color: white;
+    background-image: url(./imagens/narguile.png);
+    padding-left: 38px;
+    font-size: 30px;
+    margin: 10px;
+}
+.delivery{
+    position: relative;
+    bottom: 450px;
+    background-repeat: no-repeat;
+    padding-left: 38px;
+    font-size: 30px;
+    color:white;
+    background-image:url(./imagens/delivery.jpg);
+    margin:10px;
+}
+
+.card{
+    margin: auto;
+    height: 550px;
+    width: 650px;
+    background-image: url(./imagens/adega.jpg);
+    background-size: cover;
+    margin-top: 0px;
+    overflow: hidden;
+    background-repeat: no-repeat;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.instagram{
+    position: relative;
+    bottom:400px;
+    font-size: 30px;
+    background-image: url(./imagens/insta.png);
+    background-repeat: no-repeat;
+    padding-left: 40px;
+}
+.whatsapp{
+    position: relative;
+    bottom:300px;
+    font-size: 30px;
+    background-repeat: no-repeat;
+    background-image: url(./imagens/whatsapp2.png);
+    padding-left: 40px;
+}
+.facebook{
+    position:relative;
+    bottom:400px;
+    font-size: 30px;
+    background-repeat: no-repeat;
+    background-image:url(./imagens/face.jpg);
+    padding-left: 40px;
+}
+@media screen and (max-width:580px){
+    .card{
+        height: 330px;
+        width: 300px;
+        background-size: cover;
+        float: left;
+    }
+
+    .drink{
+        top: 290px;
+        font-size: 19px;
+        height: 40px;
+        display: grid;
+        grid-auto-flow: column;
+        right: 300px;
+        Margin: 8px;
+        padding-left: 38px;
+        text-align: justify;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+       color: white;
+    }
+    .narguile{
+        top: 290px;
+        font-size: 19px;
+        height: 40px;
+        display: grid;
+        grid-auto-flow: column;
+        right: 300px;
+        Margin: 8px;
+        padding-left: 38px;
+        text-align: justify;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+       color: white;
+    }
+    .delivery{
+        top: 290px;
+        font-size: 19px;
+        height: 40px;
+        display: grid;
+        grid-auto-flow: column;
+        right: 300px;
+        margin-bottom: 8px;
+        padding-left: 38px;
+        text-align: justify;
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        color: white;
+    }
+    .facebook{
+        top: 185px;
+        font-size: 17px;
+        height: 38px;
+        display: grid;
+        grid-auto-flow: column;
+        right: 300px;
+        Margin: 15px;
+        padding-left: 38px;
+        text-align: justify;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+       color: white;
+    }
+    .instagram{
+        top: 330px;
+        font-size: 19px;
+        height: 48px;
+        display:grid;
+        text-align: left;
+        right: 300px;
+        text-align: justify;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        color: white;
+        margin: 13px;
+    }
+    .whatsapp{
+        top: 320px;
+        font-size: 19px;
+        height: 35x;
+        display:grid;
+        text-align: left;
+        right: 300px;
+        text-align: justify;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        color: white;
+    }
+}
+
+    
