@@ -202,7 +202,7 @@ a{
         color: white;
     }
     .facebook{
-        top: 185px;
+        top: 195px;
         font-size: 17px;
         height: 38px;
         display: grid;
@@ -215,7 +215,7 @@ a{
        color: white;
     }
     .instagram{
-        top: 320px;
+        top: 330px;
         font-size: 19px;
         height: 48px;
         display:grid;
@@ -227,7 +227,7 @@ a{
         margin: 13px;
     }
     .whatsapp{
-        top: 360px;
+        top: 390px;
         font-size: 19px;
         height: 35x;
         display:grid;
